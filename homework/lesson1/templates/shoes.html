@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base_01.html' %}
 
-</body>
-</html>
+{% block title %}
+{{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+<div>
+    <h2>Обувь</h2>
+    <ul>
+        <li><a href="/sneakers">Кроссовки</a></li>
+        <li><a href="/boots">Ботинки</a></li>
+        <li><a href="/sandals">Сандалии</a></li>
+    </ul>
+</div>
+{% endblock %}
