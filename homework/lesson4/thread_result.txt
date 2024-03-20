@@ -1,0 +1,2 @@
+Thread Execution Time: 0.010996580123901367 seconds
+Sum: 50498253
