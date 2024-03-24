@@ -1,0 +1,2 @@
+Async Execution Time: 0.01103520393371582 seconds
+Sum: 50498253
